@@ -1,0 +1,16 @@
+Ftp
+
+https://www.youtube.com/watch?v=NDPG0JuWL90
+https://winitpro.ru/index.php/2016/02/18/ustanovka-i-nastrojka-smtp-servera-na-windows-server-2012-r2/
+
+РЕмарка
+1. Створити Outbound rules - AzureVM + VM - Port - 25,587(for Gmail)
+
+2. На почті в настройках  - увімкнути доступ з програм які мають пароль і відповідний логін(Дивись відео)
+
+3. Зробити кроки - Щодо запуску SMTP Server
+
+4. Для відправки використовувати папку  
+C:\inetpub\mailroot\Pickup
+копіювати туди. 
+
